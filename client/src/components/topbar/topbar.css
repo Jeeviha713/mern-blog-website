@@ -1,0 +1,88 @@
+.top{
+   width: 100%;
+   height: 50px;
+   /* background-color: rgb(193, 132, 132); */
+   background: linear-gradient(90deg, #231404, #462d12);
+   position: sticky;
+   top: 0;
+   display: flex;
+   align-items: center;
+   font-family: "Josefin Sans", sans-serif;
+   z-index: 999;
+}
+
+.topLeft,.topRight{
+   flex: 3;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 40px;
+   color: #765b37;
+}
+
+.loginRegisterButton{
+   padding: 0;
+   margin: 0;
+}
+.topCenter{
+   flex: 6;
+   color: #e4b87e;
+}
+
+.topIcon{
+   font-size: 30px;
+   cursor: pointer;
+   margin-right: 10px;
+}
+
+.topImg{
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   object-fit: cover;
+   cursor: pointer;
+}
+
+.topList{
+   display: flex;
+   justify-content: center;
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+.topListItem{
+   margin-right: 20px;
+   font-size: 15px;
+   cursor: pointer;
+    
+}
+.topSearchIcon{
+   font-size: 20px;
+   cursor: pointer;
+   margin-left: 20px;
+}
+.regButton {
+   padding: 8px 26px;
+   background-color: rgb(120, 70, 4);
+   color: white;
+   border: none;
+   border-radius: 13px;
+   cursor: pointer;
+   font-size: 14px;
+   font-family: Arial, sans-serif;
+   margin-top: 2px;
+ }
+ 
+ .regButton:hover {
+   background-color: rgb(124, 88, 40);
+ }
+ 
+ .link {
+   text-decoration: none;
+   color: white;
+   font-weight: 600
+ }
+ 
+
+
+ 
