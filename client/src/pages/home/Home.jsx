@@ -13,7 +13,7 @@ export default function Home() {
   useEffect(() => {
     const fetchPosts = async () => {
       const res = await axios.get(
-        `https://mern-blog-website-zepb.onrender.com/api/posts${search}`
+        `https://mern-blog-website-zepb.onrender.com/api/posts`
       );
       setPosts(res.data);
     };
