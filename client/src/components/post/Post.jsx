@@ -3,7 +3,7 @@ import "./post.css"
 import { Link } from "react-router-dom";
 
 export default function Post({ post }) {
-  const PF = "https://blog-backend-vgbv.onrender.com/images/";
+  const PF = "https://mern-blog-website-zepb.onrender.com/images/";
   
 
   return (

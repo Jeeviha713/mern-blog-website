@@ -32,12 +32,12 @@ export default function Settings() {
       data.append("file", file);
       updatedUser.profilePic = filename;
       try {
-        await axios.post("/upload", data);
+        await axios.post("https://mern-blog-website-zepb.onrender.com/upload", data);
       
       } catch (err) {}
     }
     try {
-  await axios.put("/users/" + user._id, updatedUser);
+  await axios.put("https://mern-blog-website-zepb.onrender.com/users/" + user._id, updatedUser);
   setSuccess(true);
     } catch (err) {}
   };
