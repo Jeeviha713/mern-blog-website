@@ -30,7 +30,7 @@ export default function Write() {
       } catch (err) {}
     }
     try {
-      const res = await axios.post("https://mern-blog-website-zepb.onrender.com/api/posts", newPost);
+      const res = await axios.post("https://mern-blog-website-zepb.onrender.com/posts", newPost);
       window.location.replace("/post/" + res.data._id);
     } catch (err) {}
   };
