@@ -9,7 +9,7 @@ export default function Sidebar() {
   useEffect (() => {
     const getCats = async () =>
     {
-      const res = await axios.get("https://mern-blog-website-zepb.onrender.com/api/categories");
+      const res = await axios.get("https://mern-blog-website-zepb.onrender.com/categories");
       setCats(res.data);
     };
     getCats();
